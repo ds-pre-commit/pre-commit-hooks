@@ -4,3 +4,9 @@
   entry: test-hook.sh
   language: script
   require_serial: true
+- id: dag-secret-scanner
+  name: Check for committed secrets in dag repo
+  description: Checks the diffed dag commit for any high entropy strings or aws keys
+  entry: dag_secret_scanner.sh
+  language: script
+  require_serial: true
