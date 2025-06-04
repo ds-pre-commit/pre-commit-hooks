@@ -1,6 +1,6 @@
 - id: test-hook
-  name: Checks stuff
-  description: Checks stuff
+  name: Check for committed secrets
+  description: Checks the diffed commit for any high entropy strings or aws keys
   entry: test-hook.sh
   language: script
   require_serial: true
