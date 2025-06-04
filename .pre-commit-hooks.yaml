@@ -1,0 +1,6 @@
+-id: test-hook
+ name: Checks stuff
+ description: Checks stuff
+ entry: test-hook.sh
+ language: script
+ require_serial: true
